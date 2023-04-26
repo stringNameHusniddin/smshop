@@ -1,0 +1,142 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.globalChat {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 700px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border: 1px solid #2ec4b6;
+  padding-top: 20px;
+}
+
+.globalChat .forms {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.globalChat .items {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 45px;
+  padding: 20px 20px;
+}
+
+.scrol {
+  overflow-y: scroll;
+  width: 95%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2ec4b6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cbf3f0;
+}
+.iks {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  color: #2ec4b6;
+  padding-left: 2px;
+}
+.iks:hover {
+  background-color: #2ec4b6;
+  color: #fff;
+}
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  background-color: #00000038;
+}
+
+.bg .confirm {
+  background-color: #fff;
+  width: 500px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+}
+.bg .confirm input {
+  width: 90%;
+}
+.chat .btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 800px;
+}
+
+.chat .btns button {
+  width: 150px;
+  height: 45px;
+}
+.chat .btns .global {
+  background-color: #2ec4b6;
+  border: none;
+  color: #fff;
+  border-top-left-radius: 5px;
+}
+
+.chat .btns .private {
+  background-color: #fff;
+  border: 1px solid #2ec4b6;
+  color: #2ec4b6;
+  border-bottom: none;
+  border-top-right-radius: 5px;
+}
+
+.bg .confirm .btns button {
+  width: 45%;
+  height: 55px;
+  background-color: #2ec4b6;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+}
+.bg .confirm .btns button:focus {
+  transition: 0.1s all linear;
+  border-radius: 6px;
+  outline: 3px solid #9dfff5;
+}

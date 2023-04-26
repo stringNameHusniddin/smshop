@@ -1,0 +1,35 @@
+.register {
+  width: 480px;
+  min-height: 350px;
+}
+
+.register .header {
+  background-color: #2a9d8f;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  width: 100%;
+}
+.register .header .btns {
+  height: 100%;
+  background-color: #fff;
+  width: 180px;
+  border-top-left-radius:9px;
+}
+.header .active {
+  border: none;
+  color: #2ec4b6;
+  margin: 0;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  height: 75%;
+}

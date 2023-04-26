@@ -1,0 +1,35 @@
+
+.kirish {
+  width: 480px;
+  min-height: 350px;
+}
+
+.kirish .header {
+  background-color: #2a9d8f;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+.kirish .header .btns_kirish {
+  height: 100%;
+}
+.kirish .active {
+  background-color: #fff;
+  min-width: 100px;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  color: #2ec4b6;
+}
+.kirish .disactive {
+  background-color: transparent;
+  min-width: 100px;
+  height: 100%;
+  border: none;
+  color: #fff;
+  padding: 10px;
+}

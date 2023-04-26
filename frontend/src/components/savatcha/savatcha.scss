@@ -1,0 +1,47 @@
+.savatcha {
+  width: 90%;
+  background-color: #fff;
+  min-height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 5%;
+}
+.savatcha .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.savatcha .header button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-bottom: 5px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid #2ec4b6;
+  color: #2ec4b6;
+}
+.savatcha .items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 250px;
+}
+.savatcha .items:first-child {
+  border-radius: 10px;
+}
+.savatcha .footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 30px;
+}

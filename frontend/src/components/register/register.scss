@@ -1,0 +1,80 @@
+.register {
+  width: 480px;
+  min-height: 350px;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  padding-left: 12px;
+  border: 1px solid #2ec4b6;
+  color: #2ec4b6;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #cbf3f0;
+  border-radius: 3px;
+}
+input::placeholder{
+  color: #2ec4b6;
+}
+#ism:focus .input label {
+  position: absolute;
+  left: 20px;
+}
+
+.register .input_file {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: 1px solid #2ec4b6;
+  color: #2ec4b6;
+}
+.register .btns {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.register .btn {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #2ec4b6;
+  color: #fff;
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.register .btn:focus {
+  outline: 3px solid #cbf3f0;
+}
+.register textarea{
+  color: #2ec4b6;
+}
+.register textarea::placeholder{
+  color: #2ec4b6;
+}

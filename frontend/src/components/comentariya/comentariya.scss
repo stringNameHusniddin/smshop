@@ -1,0 +1,78 @@
+.comentariya {
+  width: 500px;
+  background-color: #2a9d8f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 15px;
+  height: 550px;
+  gap: 100px;
+  padding-top: 50px;
+}
+.c_item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.c_items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column-reverse;
+  min-height: 350px;
+  padding: 25px 0;
+  background-color: #2a9d8f;
+  width: 340px;
+
+}
+.c_item {
+  min-height: 75px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.c_item p {
+  word-break: break-all;
+  margin: 0;
+  color: #2ec4b6;
+}
+.scrol_c {
+  width: 90%;
+  overflow: hidden scroll;
+  height: 350px;
+}
+.c_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+}
+.c_form textarea {
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 60px;
+  resize: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #2ec4b6;
+  color: #2ec4b6;
+}
+.c_form textarea::placeholder{
+  color: #2ec4b6;
+}
+.c_form button {
+  width: 10%;
+  border: none;
+  background-color: #2a9d8f;
+  color: #fff;
+  height: 60px;
+}
